@@ -1,12 +1,12 @@
 # Fullstack Job Test - DomPixel
 
-## Desafio
+## 💭 Sobre o desafio
 
 O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos novos em um banco de dados, listar os produtos cadastrados e também possam editar ou excluir produtos existentes.
  
-### Obrigatório
+### ‼ Obrigatório
 
-- O projeto deve ter um repositório público no github
+- O projeto deve ter um repositório público com readme no github
 - A parte do frontend deve ser feito em React ou então em Vue
 - A parte do backend pode ser feito em PHP ou então em Node
   - Caso seja feito em PHP deve ser utilizado o laravel com versão superior ao 5.6
@@ -14,14 +14,29 @@ O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos no
 - Os produtos disponíveis no projeto Front-End React devem ser recuperados através da API Rest Back-End PHP/Node;
 - Fique atento a princípios SOLID, DDD e orientação a objetos;
  
-## API / Back-End PHP/Node
+## 📝 Readme do Repositório
  
- ### Banco de Dados
+- Deve conter o título do projeto
+- Uma descrição do projeto
+- Instruções de como executar o projeto de maneira detalhada e especifica de cada parte (frontend e backend)
+- Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção "Dificuldades"
+
+## 💯 Finalização
+
+Ao finalizar o projeto, envie o link do repositório via e-mail para contato@dompixel.com.br
+
+## 🤔 Suporte
+
+Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
+
+## 👾 API / Back-End PHP/Node
+ 
+ ### 📚 Banco de Dados
  
  - Utilize Migrations
  - Tabelas e colunas do banco em inglês e utilizar snake case
  
- ### Endpoints
+ ### ✅ Endpoints
  
 - Criar uma API REST usando PHP/Node com os seguintes endpoints:
       
@@ -42,7 +57,7 @@ O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos no
  
  > Dica: Talvez seja interessante utilizar uma chave api no header das requisições
  
-### Extras
+### 🎯 Extras
 
 - **Diferencial 1 -** Utilizar typescript caso utilize o Node
 - **Diferencial 2 -** Escrever Unit Test para o endpoint `POST /products`
@@ -50,13 +65,13 @@ O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos no
 - **Diferencial 4 -** Escrever o esquema de segurança aplicado nos endpoints
 - **Diferencial 5 -** Escrever uma documentação para a API
  
-## Front-End React/Vue
+## 🌐 Front-End React/Vue
 
 Nessa parte da aplição foi criado um figma para servir de material de apoio:
 
 - [Figma](https://www.figma.com/file/RvniDEVlsA0kBMV8eSf57M/Fullstack-Job-Test?node-id=0%3A1)
 
-### Criação de produto
+### 🆕 Criação de produto
  
 Seu objetivo é montar uma tela para a criação de produtos novos no banco de dados. 
 Nesta tela devemos adicionar os seguintes campos:
@@ -72,7 +87,7 @@ O Product Manager do projeto deixou uma sugestão abaixo.
 > Recomendado adicionar alertas de validações, sucesso e erro.
 
  
-#### Listar produtos
+#### 📄 Listar produtos
  
 Criar uma tela com uma tabela para listar os produtos processados pela API. É importante ter os seguintes campos:
  
@@ -82,7 +97,7 @@ Criar uma tela com uma tabela para listar os produtos processados pela API. É i
         - Data de criação (Data do upload do produto)
         - Ações (Botões Editar e Excluir)
  
-#### Editar produto
+#### 📝 Editar produto
  
 Ao clicar no botão de editar na tabela de produtos, o usuário deverá ir para uma tela de edição do produto com os campos dos produtos para que seja possível editá-los com os seguintes campos:
 
@@ -96,7 +111,7 @@ O Product Manager do projeto deixou uma sugestão abaixo.
 
 > Recomendado adicionar alertas de validações, sucesso e erro.
 
-#### Remover produto
+#### ❌ Remover produto
  
 Antes de completar a ação de remover produto, devemos perguntar ao usuário se ele realmente quer realizar a ação. Para evitar a remoção de produtos de maneira indesejada. 
 Após remover com êxito, notificar o usuário com um alerta de sucesso. 
@@ -105,18 +120,7 @@ Após remover com êxito, notificar o usuário com um alerta de sucesso.
  
 - **Diferencial 1 - Foco em Front-End** utilizar Unit Test no front-end para a opção de `Remover produto`. 
 - **Diferencial 2 - Foco em Front-End** utilizar Unit Test no front-end para a opção de `Editar produto`. 
- 
-## Readme do Repositório
- 
-- Deve conter o título do projeto
-- Uma descrição do projeto
-- Instruções de como executar o projeto de maneira detalhada e especifica de cada parte (frontend e backend)
-- Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção "Dificuldades"
 
-## Finalização 
+---
 
-Ao finalizar o projeto, envie o link do repositório via e-mail para contato@dompixel.com.br
-
-## Suporte
-
-Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br 
+<sup> Feito com 💙 pelos artesões da web da 👾<a href="https://dompixel.com.br/" target="_blank" rel="noopener">DomPixel</a> ® 2020.</sup>
