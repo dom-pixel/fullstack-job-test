@@ -4,7 +4,7 @@
 
 O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos novos em um banco de dados, listar os produtos cadastrados e também possam editar ou excluir produtos existentes.
  
-### ‼ Obrigatório
+### ❗❗ Obrigatório
 
 - O projeto deve ter um repositório público com readme no github
 - A parte do frontend deve ser feito em React ou então em Vue
