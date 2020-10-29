@@ -14,29 +14,29 @@ O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos no
 - Os produtos disponíveis no projeto Front-End React devem ser recuperados através da API Rest Back-End PHP/Node;
 - Fique atento a princípios SOLID, DDD e orientação a objetos;
  
-## 📝 Readme do Repositório
+### 📝 Readme do Repositório
  
 - Deve conter o título do projeto
 - Uma descrição do projeto
 - Instruções de como executar o projeto de maneira detalhada e especifica de cada parte (frontend e backend)
 - Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção "Dificuldades"
 
-## 💯 Finalização
+### 💯 Finalização
 
 Ao finalizar o projeto, envie o link do repositório via e-mail para contato@dompixel.com.br
 
-## 🤔 Suporte
+### 🤔 Suporte
 
 Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
 
-## 👾 API / Back-End PHP/Node
- 
- ### 📚 Banco de Dados
+## 👾 Back-End PHP/Node
+
+### 📚 Banco de Dados
  
  - Utilize Migrations
  - Tabelas e colunas do banco em inglês e utilizar snake case
- 
- ### ✅ Endpoints
+
+### ✅ Endpoints
  
 - Criar uma API REST usando PHP/Node com os seguintes endpoints:
       
