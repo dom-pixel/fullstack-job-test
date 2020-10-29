@@ -1,4 +1,4 @@
-# Fullstack Job Test - Back-End: PHP/NodeJs, MySQL & ReactJS/Vue
+# Fullstack Job Test - DomPixel
 
 ## Desafio
 
@@ -11,7 +11,7 @@ O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos no
 - A parte do backend pode ser feito em PHP ou então em Node
   - Caso seja feito em PHP deve ser utilizado o laravel com versão superior ao 5.6
   - Caso seja feito em Node deve ser utilizado o express ou então o Adonis
-- Os produtos disponíveis no projeto Front-End React devem ser recuperados através da API Rest Back-End PHP;
+- Os produtos disponíveis no projeto Front-End React devem ser recuperados através da API Rest Back-End PHP/Node;
 - Fique atento a princípios SOLID, DDD e orientação a objetos;
  
 ## API / Back-End PHP/Node
@@ -25,7 +25,7 @@ O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos no
  
 - Criar uma API REST usando PHP/Node com os seguintes endpoints:
       
-     `GET /`: Retornar um Status: 200 e uma Mensagem "REST WebAPI Challenge 20200908 Running"
+     `GET /`: Retornar um Status: 200 e uma Mensagem "API Fullstack Job Test - DomPixel running"
      
      `POST /products`: O endpoint servirá para inserir novos dados na tabela de produtos que serão enviados pelo frontend, que serão: nome, categoria e preço
      
