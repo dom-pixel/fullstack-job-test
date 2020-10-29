@@ -116,7 +116,7 @@ O Product Manager do projeto deixou uma sugestão abaixo.
 Antes de completar a ação de remover produto, devemos perguntar ao usuário se ele realmente quer realizar a ação. Para evitar a remoção de produtos de maneira indesejada. 
 Após remover com êxito, notificar o usuário com um alerta de sucesso. 
 
-#### Unit Testing
+### 🎯 Extras
  
 - **Diferencial 1 - Foco em Front-End** utilizar Unit Test no front-end para a opção de `Remover produto`. 
 - **Diferencial 2 - Foco em Front-End** utilizar Unit Test no front-end para a opção de `Editar produto`. 
