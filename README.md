@@ -71,6 +71,8 @@ Nessa parte da aplição foi criado um figma para servir de material de apoio:
 
 - [Figma](https://www.figma.com/file/RvniDEVlsA0kBMV8eSf57M/Fullstack-Job-Test?node-id=0%3A1)
 
+> Obs: O Figma é apenas um exemplo de como devem ser as estruturas das telas, o frontend não precisa ser feito de maneira idêntica.
+
 ### 🆕 Criação de produto
  
 Seu objetivo é montar uma tela para a criação de produtos novos no banco de dados. 
