@@ -36,6 +36,7 @@ Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
  - Utilize Migrations
  - Tabelas e colunas do banco em inglês e utilizar snake case
  - Nesse teste temos apenas uma tabela de produtos que deve conter:
+   - ID
    - Nome
    - Categoria
    - Preço
