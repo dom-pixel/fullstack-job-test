@@ -7,7 +7,7 @@ O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos no
 ### ❗❗ Obrigatório
 
 - O projeto deve ter um repositório público com readme no github
-- A parte do frontend deve ser feito em React ou então em Vue
+- A parte do frontend deve ser feito em React ou Vue ou Blade
 - A parte do backend pode ser feito em PHP ou então em Node
   - Caso seja feito em PHP deve ser utilizado o laravel com versão superior ao 5.6
   - Caso seja feito em Node deve ser utilizado o express ou então o Adonis
@@ -71,7 +71,7 @@ Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
 - **Diferencial 4 -** Escrever o esquema de segurança aplicado nos endpoints
 - **Diferencial 5 -** Escrever uma documentação para a API
  
-## 🌐 Front-End React/Vue
+## 🌐 Front-End React/Vue/Blade
 
 Nessa parte da aplição foi criado um figma para servir de material de apoio:
 
