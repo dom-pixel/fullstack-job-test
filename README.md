@@ -63,11 +63,10 @@ Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
  
 ### 🎯 Extras
 
-- **Diferencial 1 -** Utilizar typescript caso utilize o Node
-- **Diferencial 2 -** Escrever Unit Test para o endpoint `POST /products`
-- **Diferencial 3 -** Executar o projeto usando Docker
-- **Diferencial 4 -** Escrever o esquema de segurança aplicado nos endpoints
-- **Diferencial 5 -** Escrever uma documentação para a API
+- **Diferencial 1 -** Escrever Unit Test para o endpoint `POST /products`
+- **Diferencial 2 -** Executar o projeto usando Docker
+- **Diferencial 3 -** Escrever o esquema de segurança aplicado nos endpoints
+- **Diferencial 4 -** Escrever uma documentação para a API
  
 ## 🌐 Front-End React/Vue/Blade
 
