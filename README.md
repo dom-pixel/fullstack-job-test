@@ -42,7 +42,7 @@ Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
 
 ### ✅ Endpoints
  
-- Criar uma API REST usando PHP/Node com os seguintes endpoints:
+- Criar uma API REST usando PHP (LARAVEL) com os seguintes endpoints:
       
      `GET /`: Retornar um Status: 200 e uma Mensagem "API Fullstack Job Test - DomPixel running"
      
