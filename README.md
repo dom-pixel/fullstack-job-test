@@ -6,9 +6,9 @@ O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos no
  
 ### ❗❗ Obrigatório
 
-- O projeto deve ter um repositório público com readme no github
-- A parte do frontend deve ser feito em React ou Vue ou Blade
-- A parte do backend tem que ser feito em PHP utilizando o framework LARAVEL com versão superior ao 8
+- O projeto deve ter um repositório público com readme no github;
+- A parte do frontend deve ser feito em Vue;
+- A parte do backend tem que ser feito em PHP utilizando o framework LARAVEL com versão superior ao 8;
 - Os produtos disponíveis no projeto Front-End React devem ser recuperados através da API Rest Back-End;
 - Fique atento a princípios SOLID, DDD e orientação a objetos;
  
@@ -68,7 +68,7 @@ Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
 - **Diferencial 3 -** Escrever o esquema de segurança aplicado nos endpoints
 - **Diferencial 4 -** Escrever uma documentação para a API
  
-## 🌐 Front-End React/Vue/Blade
+## 🌐 Front-End Vue
 
 Nessa parte da aplição foi criado um figma para servir de material de apoio:
 
