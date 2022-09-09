@@ -6,10 +6,12 @@ O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos no
  
 ### ❗❗ Obrigatório
 
-- O projeto deve ter um repositório público com readme no github;
-- A parte do frontend deve ser feito em Vue;
-- A parte do backend tem que ser feito em PHP utilizando o framework LARAVEL com versão superior ao 8;
-- Os produtos disponíveis no projeto Front-End React devem ser recuperados através da API Rest Back-End;
+- O projeto deve ter um repositório público com readme no github
+- A parte do frontend deve ser feito em React ou Vue ou Blade
+- A parte do backend pode ser feito em PHP ou então em Node
+  - Caso seja feito em PHP deve ser utilizado o laravel com versão superior ao 8
+  - Caso seja feito em Node deve ser utilizado o express ou então o Adonis
+- Os produtos disponíveis no projeto Front-End React devem ser recuperados através da API Rest Back-End PHP/Node;
 - Fique atento a princípios SOLID, DDD e orientação a objetos;
  
 ### 📝 Readme do Repositório
@@ -27,7 +29,7 @@ Ao finalizar o projeto, envie o link do repositório via e-mail para contato@dom
 
 Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
 
-## 👾 Back-End PHP LARAVEL
+## 👾 Back-End PHP/Node
 
 ### 📚 Banco de Dados
  
@@ -42,7 +44,7 @@ Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
 
 ### ✅ Endpoints
  
-- Criar uma API REST usando PHP (LARAVEL) com os seguintes endpoints:
+- Criar uma API REST usando PHP/Node com os seguintes endpoints:
       
      `GET /`: Retornar um Status: 200 e uma Mensagem "API Fullstack Job Test - DomPixel running"
      
@@ -63,12 +65,13 @@ Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
  
 ### 🎯 Extras
 
-- **Diferencial 1 -** Escrever Unit Test para o endpoint `POST /products`
-- **Diferencial 2 -** Executar o projeto usando Docker
-- **Diferencial 3 -** Escrever o esquema de segurança aplicado nos endpoints
-- **Diferencial 4 -** Escrever uma documentação para a API
+- **Diferencial 1 -** Utilizar typescript caso utilize o Node
+- **Diferencial 2 -** Escrever Unit Test para o endpoint `POST /products`
+- **Diferencial 3 -** Executar o projeto usando Docker
+- **Diferencial 4 -** Escrever o esquema de segurança aplicado nos endpoints
+- **Diferencial 5 -** Escrever uma documentação para a API
  
-## 🌐 Front-End Vue
+## 🌐 Front-End React/Vue/Blade
 
 Nessa parte da aplição foi criado um figma para servir de material de apoio:
 
