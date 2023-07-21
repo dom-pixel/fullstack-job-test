@@ -6,9 +6,9 @@ Há uma loja virtual chamada “DompixelShop" que deseja criar uma aplicação w
 
 ### 🖥 Tecnologias
 
-PHP (versão 7.4 ou superior)
-Framework Laravel (versão 8 ou superior);
-Utilizar as views blade do laravel ou o vue.js (versão 2)
+- PHP (versão 7.4 ou superior)
+- Framework Laravel (versão 8 ou superior);
+- Utilizar as views blade do laravel ou o vue.js (versão 2)
 
 ### ❗❗ Obrigatório
 
