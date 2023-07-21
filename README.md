@@ -1,134 +1,55 @@
-# Fullstack Job Test - DomPixel
+# História: Sistema de Cadastro de Produtos
 
 ## 💭 Sobre o desafio
 
-O objetivo é  criar uma aplicação onde usuários possam cadastrar produtos novos em um banco de dados, listar os produtos cadastrados e também possam editar ou excluir produtos existentes.
- 
+Há uma loja virtual chamada “DompixelShop" que deseja criar uma aplicação web para gerenciar seu catálogo de produtos. Eles contrataram uma equipe de desenvolvimento, mas como parte do processo de recrutamento, eles querem avaliar um candidato a desenvolvedor júnior para se juntar à equipe. A equipe técnica forneceu ao candidato uma lista de requisitos funcionais para o sistema de cadastro de produtos.
+
+### 🖥 Tecnologias
+
+PHP (versão 7.4 ou superior)
+Framework Laravel (versão 8 ou superior);
+Utilizar as views blade do laravel ou o vue.js (versão 2)
+
 ### ❗❗ Obrigatório
 
-- O projeto deve ter um repositório público com readme no github
-- A parte do frontend deve ser feito em React ou Vue ou Blade
-- A parte do backend pode ser feito em PHP ou então em Node
-  - Caso seja feito em PHP deve ser utilizado o laravel com versão superior ao 8
-  - Caso seja feito em Node deve ser utilizado o express ou então o Adonis
-- Os produtos disponíveis no projeto Front-End React devem ser recuperados através da API Rest Back-End PHP/Node;
-- Fique atento a princípios SOLID, DDD e orientação a objetos;
- 
+#### Requisitos Funcionais:
+
+1. O sistema deve permitir o cadastro de novos produtos com os seguintes campos:
+   - Nome do produto (campo obrigatório);
+   - Descrição do produto;
+   - Preço do produto (campo obrigatório);
+   - Quantidade em estoque (campo obrigatório).
+
+2. Os produtos cadastrados devem ser salvos em um banco de dados.
+
+3. O sistema deve permitir a listagem de todos os produtos cadastrados, exibindo seus nomes, preços e quantidades em estoque em uma página chamada "Catálogo de Produtos".
+
+4. O sistema deve permitir a edição dos dados de um produto existente, possibilitando a atualização de seus campos: nome, descrição, preço e quantidade em estoque.
+
+5. O sistema deve permitir a exclusão de um produto existente do banco de dados.
+
+6. O sistema deve implementar um layout simples e responsivo para facilitar a visualização tanto em desktop quanto em dispositivos móveis. OBS: O front-end da aplicação deve estar dentro do framework laravel.
+
+7. O candidato deve utilizar o sistema de migrations para criar a estrutura do banco de dados e, se necessário, definir as tabelas e colunas para os produtos.
+
+8. O candidato deve adotar a arquitetura MVC para separar a lógica de negócios, a apresentação e o controle da aplicação
+
+9. O código desenvolvido pelo candidato deve seguir as boas práticas e ser de fácil manutenção.
+
+O candidato terá um prazo de 48 horas para entregar a solução desenvolvida, que será avaliada pela equipe técnica em relação à qualidade do código, cumprimento dos requisitos funcionais e organização da estrutura da aplicação.
+
 ### 📝 Readme do Repositório
- 
+
 - Deve conter o título do projeto
 - Uma descrição do projeto
-- Instruções de como executar o projeto de maneira detalhada e especifica de cada parte (frontend e backend)
+- Instruções de como executar o projeto de maneira detalhada e especifica
 - Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção "Dificuldades"
 
 ### 💯 Finalização
 
 Ao finalizar o projeto, envie o link do repositório via e-mail para contato@dompixel.com.br
 
-### 🤔 Suporte
-
+### 📞 Suporte
 Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
 
-## 👾 Back-End PHP/Node
-
-### 📚 Banco de Dados
- 
- - Utilize Migrations
- - Tabelas e colunas do banco em inglês e utilizar snake case
- - Nesse teste temos apenas uma tabela de produtos que deve conter:
-   - ID
-   - Nome
-   - Categoria
-   - Preço
-   - Data de criação
-
-### ✅ Endpoints
- 
-- Criar uma API REST usando PHP/Node com os seguintes endpoints:
-      
-     `GET /`: Retornar um Status: 200 e uma Mensagem "API Fullstack Job Test - DomPixel running"
-     
-     `POST /products`: O endpoint servirá para inserir novos dados na tabela de produtos que serão enviados pelo frontend, que serão: nome, categoria e preço
-     
-     `PUT /products/:productId`: Será responsável por receber atualizações de um produto especifico enviados pelo frontend
-     
-     `DELETE /products/:productId`: Remover o produto da base de dados
-     
-     `GET /products/:productId`: Obter a informação somente de um produto da base de dados
-     
-     `GET /products`: Listar todos os produtos da base de dados
- 
- - Integrar a API com o banco de dados para persistir os dados
- - Até o momento, os Endpoints estão todos abertos para acesso. Isso não é legal a nível de segurança, dessa forma, queremos que você use um esquema para bloquear qualquer tipo de acesso não autorizado.
- 
- > Dica: Talvez seja interessante utilizar uma chave api no header das requisições
- 
-### 🎯 Extras
-
-- **Diferencial 1 -** Utilizar typescript caso utilize o Node
-- **Diferencial 2 -** Escrever Unit Test para o endpoint `POST /products`
-- **Diferencial 3 -** Executar o projeto usando Docker
-- **Diferencial 4 -** Escrever o esquema de segurança aplicado nos endpoints
-- **Diferencial 5 -** Escrever uma documentação para a API
- 
-## 🌐 Front-End React/Vue/Blade
-
-Nessa parte da aplição foi criado um figma para servir de material de apoio:
-
-- [Figma](https://www.figma.com/file/RvniDEVlsA0kBMV8eSf57M/Fullstack-Job-Test?node-id=0%3A1)
-
-> Obs: O Figma é apenas um exemplo de como devem ser as estruturas das telas, o frontend não precisa ser feito de maneira idêntica.
-
-### 🆕 Criação de produto
- 
-Seu objetivo é montar uma tela para a criação de produtos novos no banco de dados. 
-Nesta tela devemos adicionar os seguintes campos:
-
-        - Nome (obrigatório)
-        - Categoria (obrigatório)
-        - Preço (obrigatório)
-    
-É necessário que o frontend faça a validação dos campos antes de serem enviados a REST API. 
-
-O Product Manager do projeto deixou uma sugestão abaixo.
-
-> Recomendado adicionar alertas de validações, sucesso e erro.
-
- 
-#### 📄 Listar produtos
- 
-Criar uma tela com uma tabela para listar os produtos processados pela API. É importante ter os seguintes campos:
- 
-        - Nome
-        - Categoria
-        - Preço
-        - Data de criação (Data do upload do produto)
-        - Ações (Botões Editar e Excluir)
- 
-#### 📝 Editar produto
- 
-Ao clicar no botão de editar na tabela de produtos, o usuário deverá ir para uma tela de edição do produto com os campos dos produtos para que seja possível editá-los com os seguintes campos:
-
-        - Nome
-        - Categoria
-        - Preço
-        
-É necessário que o frontend faça a validação dos campos antes de serem enviados a REST API. 
-
-O Product Manager do projeto deixou uma sugestão abaixo.
-
-> Recomendado adicionar alertas de validações, sucesso e erro.
-
-#### ❌ Remover produto
- 
-Antes de completar a ação de remover produto, devemos perguntar ao usuário se ele realmente quer realizar a ação. Para evitar a remoção de produtos de maneira indesejada. 
-Após remover com êxito, notificar o usuário com um alerta de sucesso. 
-
-### 🎯 Extras
- 
-- **Diferencial 1 - Foco em Front-End** utilizar Unit Test no front-end para a opção de `Remover produto`. 
-- **Diferencial 2 - Foco em Front-End** utilizar Unit Test no front-end para a opção de `Editar produto`. 
-
----
-
-<sup> Feito com 💙 pelos artesões da web da 👾<a href="https://dompixel.com.br/" target="_blank" rel="noopener">DomPixel</a> ® 2022.</sup>
+<sup> Feito com 💙 pelos artesões da web da 👾 DomPixel ® 2022.</sup>
