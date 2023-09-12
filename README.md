@@ -1,4 +1,4 @@
-# História: Construção de uma Aplicação de Blog em Next.js
+# História: Construção de uma Aplicação de Blog em Next.js (DompixelBlog)
 
 ## 💭 Sobre o desafio
 
@@ -34,7 +34,7 @@ A empresa está interessada em criar uma aplicação de blog usando Next.js. A a
 
 ### 📝 Readme do Repositório
 
-- Deve conter o título do projeto
+- Deve conter o título do projeto (DompixelBlog)
 - Uma descrição do projeto
 - Instruções de como executar o projeto de maneira detalhada e especifica
 - Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção "Dificuldades"
