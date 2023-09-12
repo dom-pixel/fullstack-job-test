@@ -1,43 +1,36 @@
-# História: Sistema de Cadastro de Produtos
+# História: Construção de uma Aplicação de Blog em Next.js
 
 ## 💭 Sobre o desafio
 
-Há uma loja virtual chamada “DompixelShop" que deseja criar uma aplicação web para gerenciar seu catálogo de produtos. Eles contrataram uma equipe de desenvolvimento, mas como parte do processo de recrutamento, eles querem avaliar um candidato a desenvolvedor júnior para se juntar à equipe. A equipe técnica forneceu ao candidato uma lista de requisitos funcionais para o sistema de cadastro de produtos.
+A empresa está interessada em criar uma aplicação de blog usando Next.js. A aplicação deve permitir que os usuários visualizem e leiam postagens de blog, bem como criar novas postagens. Como especialista em Front-end, você precisa criar um projeto inicial para essa aplicação e contratar um desenvolvedor Front-end Junior para trabalhar nele.
 
 ### 🖥 Tecnologias
 
-- PHP (versão 7.4 ou superior)
-- Framework Laravel (versão 8 ou superior)
-- Utilizar as views blade do laravel ou o vue.js (versão 2)
-- Docker (opcional)
+- Next.js
 
 ### ❗❗ Obrigatório
 
 #### Requisitos Funcionais:
 
-1. O sistema deve permitir o cadastro de novos produtos com os seguintes campos:
-   - Nome do produto (campo obrigatório);
-   - Descrição do produto;
-   - Preço do produto (campo obrigatório);
-   - Quantidade em estoque (campo obrigatório).
+1. Configuração Inicial: O candidato deve configurar um projeto Next.js funcional. Isso inclui a configuração do ambiente de desenvolvimento, a instalação das dependências necessárias.
 
-2. Os produtos cadastrados devem ser salvos em um banco de dados.
+2. Crie uma página inicial que liste postagens de blog. As postagens devem ser obtidas de uma API falsa (simulada) usando fetch ou axios. Cada postagem deve exibir seu título, data de publicação e uma imagem de capa.
 
-3. O sistema deve permitir a listagem de todos os produtos cadastrados, exibindo seus nomes, preços e quantidades em estoque em uma página chamada "Catálogo de Produtos".
+3. Página de Detalhes: Quando um usuário clicar em uma postagem na página inicial, ele deve ser redirecionado para uma página de detalhes que exiba o conteúdo completo da postagem, incluindo texto e imagens.
 
-4. O sistema deve permitir a edição dos dados de um produto existente, possibilitando a atualização de seus campos: nome, descrição, preço e quantidade em estoque.
+4. Criação de Postagens: Implemente uma página onde os usuários possam criar novas postagens de blog. Eles devem poder inserir um título, conteúdo de texto e uma imagem de capa. Os dados da postagem devem ser enviados para a API falsa para armazenamento.
 
-5. O sistema deve permitir a exclusão de um produto existente do banco de dados.
+5. Estilo: A aplicação deve ser estilizada de forma atraente e responsiva. (Usar mantine (https://mantine.dev/) para componentização).
 
-6. O sistema deve implementar um layout simples e responsivo para facilitar a visualização tanto em desktop quanto em dispositivos móveis. OBS: O front-end da aplicação deve estar dentro do framework laravel.
+6. Controle de Estado: Use o estado local do Next.js para gerenciar os dados da aplicação, como postagens e formulários.
 
-7. O candidato deve utilizar o sistema de migrations para criar a estrutura do banco de dados e, se necessário, definir as tabelas e colunas para os produtos.
+### Bônus 🎁🎁🎁
 
-8. O candidato deve adotar a arquitetura MVC para separar a lógica de negócios, a apresentação e o controle da aplicação
+1. Implementar um sistema de autenticação básico, permitindo que os usuários façam login antes de criar postagens.
 
-9. O código desenvolvido pelo candidato deve seguir as boas práticas e ser de fácil manutenção.
+2. Adicionar funcionalidade de pesquisa para que os usuários possam procurar postagens por título ou conteúdo.
 
-O candidato terá um prazo de 48 horas para entregar a solução desenvolvida, que será avaliada pela equipe técnica em relação à qualidade do código, cumprimento dos requisitos funcionais e organização da estrutura da aplicação.
+3. Implementar animações ou transições para melhorar a experiência do usuário.
 
 ### 📝 Readme do Repositório
 
