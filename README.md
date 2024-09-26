@@ -38,8 +38,9 @@ A empresa está interessada em criar uma aplicação de blog usando Next.js. A a
 
 - Deve conter o título do projeto (DompixelBlog)
 - Uma descrição do projeto
-- Instruções de como executar o projeto de maneira detalhada e especifica
+- Instruções de como executar o projeto de maneira detalhada e específica
 - Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção "Dificuldades"
+- O projeto precisa estar acessível para o público. Fazer o deploy do projeto na plataforma vercel (https://vercel.com) e colocar a url para acesso.
 
 ### 💯 Finalização
 
