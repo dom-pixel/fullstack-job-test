@@ -43,7 +43,7 @@ A empresa está interessada em criar uma aplicação de blog usando Next.js. A a
 
 Ao finalizar o projeto, envie o link do repositório via e-mail para contato@dompixel.com.br
 
-### 📞 Suporte
+### 📩 Suporte
 Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
 
-<sup> Feito com 💙 pelos artesões da web da 👾 DomPixel ® 2023.</sup>
+<sup> Feito com 💙 pelos artesões da web da 👾 DomPixel ® 2024.</sup>
