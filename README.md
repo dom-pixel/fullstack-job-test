@@ -2,7 +2,7 @@
 
 ## 💭 Sobre o desafio
 
-A empresa está interessada em criar uma aplicação de blog usando Next.js. A aplicação deve permitir que os usuários visualizem e leiam postagens de blog, bem como criar novas postagens. Como especialista em Front-end, você precisa criar um projeto inicial para essa aplicação e contratar um desenvolvedor Front-end Junior para trabalhar nele.
+A empresa está interessada em criar uma aplicação de blog usando Next.js. A aplicação deve permitir que os usuários visualizem e leiam postagens de blog, bem como criar novas postagens. Como especialista em Front-end, você precisa criar um projeto inicial para essa aplicação.
 
 ### 🖥 Tecnologias
 
@@ -23,6 +23,8 @@ A empresa está interessada em criar uma aplicação de blog usando Next.js. A a
 5. Estilo: A aplicação deve ser estilizada de forma atraente e responsiva. (Usar mantine (https://mantine.dev/) para componentização).
 
 6. Controle de Estado: Use o estado local do Next.js para gerenciar os dados da aplicação, como postagens e formulários.
+
+7. Responsividade: Aplicar a responsividade para esse projeto para diveferentes tamanhos de tela. 
 
 ### Bônus 🎁🎁🎁
 
