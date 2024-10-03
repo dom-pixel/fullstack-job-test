@@ -2,40 +2,57 @@
 
 ## 💭 Sobre o desafio
 
-Há uma loja virtual chamada “DompixelShop" que deseja criar uma aplicação web para gerenciar seu catálogo de produtos. Eles contrataram uma equipe de desenvolvimento, mas como parte do processo de recrutamento, eles querem avaliar um candidato a desenvolvedor júnior para se juntar à equipe. A equipe técnica forneceu ao candidato uma lista de requisitos funcionais para o sistema de cadastro de produtos.
+A DompixelShop deseja criar uma aplicação web para gerenciar seu estoque de produtos e suas respectivas categorias. Como parte do processo de recrutamento, estamos avaliando desenvolvedores para integrar nossa equipe. Este desafio tem como objetivo avaliar suas habilidades de desenvolvimento.
 
 ### 🖥 Tecnologias
 
-- PHP (versão 7.4 ou superior)
-- Framework Laravel (versão 8 ou superior)
-- Utilizar as views blade do laravel ou o vue.js (versão 2)
-- Docker (opcional)
+- Node.js (versão 18 ou superior)
+- NestJS ou AdonisJS
+- Banco de Dados (PostgreSQL ou MySQL)
+- Docker
 
 ### ❗❗ Obrigatório
 
 #### Requisitos Funcionais:
 
-1. O sistema deve permitir o cadastro de novos produtos com os seguintes campos:
-   - Nome do produto (campo obrigatório);
-   - Descrição do produto;
-   - Preço do produto (campo obrigatório);
-   - Quantidade em estoque (campo obrigatório).
+1. API de Produtos:
+   - Deve permitir o cadastro de novos produtos com os seguintes campos:
+      - Nome do produto (campo obrigatório)
+      - Descrição do produto
+      - Preço do produto (campo obrigatório)
+      - Quantidade em estoque (campo obrigatório)
+      - O produto deve estar vinculado a uma categoria.
 
-2. Os produtos cadastrados devem ser salvos em um banco de dados.
+2. CRUD de Produtos:
+   - Criar: Adicionar novos produtos ao sistema.
+   - Listar: Listar todos os produtos cadastrados, exibindo seus nomes, preços, quantidades em estoque e categoria associada.
+     - Fazer a paginação de 10 produtos por página.
+     - Implementar filtro pelo nome do produto.
+   - Atualizar: Atualizar os dados de um produto já cadastrado.
+   - Excluir: Remover produtos do sistema.
+     - Implementar softDeletes na exclusão do produto .
 
-3. O sistema deve permitir a listagem de todos os produtos cadastrados, exibindo seus nomes, preços e quantidades em estoque em uma página chamada "Catálogo de Produtos".
+3. API de Categorias:
+   - Deve permitir o cadastro de categorias de produtos com os seguintes campos:
+     - Nome da categoria (campo obrigatório)
 
-4. O sistema deve permitir a edição dos dados de um produto existente, possibilitando a atualização de seus campos: nome, descrição, preço e quantidade em estoque.
+4. CRUD de Categorias:
+   - Criar: Adicionar novas categorias ao sistema.
+   - Listar: Listar todas as categorias cadastradas.
+     - Fazer a paginação de 10 categorias por página.
+     - Implementar filtro pelo nome da categoria.
+   - Atualizar: Atualizar as informações de uma categoria.
+   - Excluir: Remover categorias do sistema.
+     - Implementar softDeletes na exclusão da categoria.
 
-5. O sistema deve permitir a exclusão de um produto existente do banco de dados.
+5. Versionamento do Banco de Dados:
+   - O candidato deve utilizar migrations para criar a estrutura do banco de dados (tabelas de produtos e categorias, com as devidas relações).
+   - Cada produto deve pertencer a uma única categoria.
 
-6. O sistema deve implementar um layout simples e responsivo para facilitar a visualização tanto em desktop quanto em dispositivos móveis. OBS: O front-end da aplicação deve estar dentro do framework laravel.
-
-7. O candidato deve utilizar o sistema de migrations para criar a estrutura do banco de dados e, se necessário, definir as tabelas e colunas para os produtos.
-
-8. O candidato deve adotar a arquitetura MVC para separar a lógica de negócios, a apresentação e o controle da aplicação
-
-9. O código desenvolvido pelo candidato deve seguir as boas práticas e ser de fácil manutenção.
+6. Boas Práticas:
+   - Código limpo e organizado.
+   - Estrutura MVC, separando a lógica de negócios, controle e apresentação.
+   - O código desenvolvido deve ser de fácil manutenção.
 
 O candidato terá um prazo de 48 horas para entregar a solução desenvolvida, que será avaliada pela equipe técnica em relação à qualidade do código, cumprimento dos requisitos funcionais e organização da estrutura da aplicação.
 
@@ -45,6 +62,7 @@ O candidato terá um prazo de 48 horas para entregar a solução desenvolvida, q
 - Uma descrição do projeto
 - Instruções de como executar o projeto de maneira detalhada e especifica
 - Se durante o processo de desenvolvimento não conseguiu fazer algo, explique qual o impedimento que encontrou e como tentou resolver em uma seção "Dificuldades"
+- Se possível deixar a collection do postman ou insomnia para testar as apis.
 
 ### 💯 Finalização
 
@@ -52,5 +70,3 @@ Ao finalizar o projeto, envie o link do repositório via e-mail para contato@dom
 
 ### 📞 Suporte
 Caso tenha algum dúvida envie um e-mail para contato@dompixel.com.br
-
-<sup> Feito com 💙 pelos artesões da web da 👾 DomPixel ® 2023.</sup>
