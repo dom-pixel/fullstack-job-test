@@ -30,7 +30,7 @@ A DompixelShop deseja criar uma aplicação web para gerenciar seu estoque de pr
      - Implementar filtro pelo nome do produto.
    - Atualizar: Atualizar os dados de um produto já cadastrado.
    - Excluir: Remover produtos do sistema.
-     - Implementar softDeletes na exclusão do produto .
+     - Implementar soft delete.
 
 3. API de Categorias:
    - Deve permitir o cadastro de categorias de produtos com os seguintes campos:
@@ -43,7 +43,7 @@ A DompixelShop deseja criar uma aplicação web para gerenciar seu estoque de pr
      - Implementar filtro pelo nome da categoria.
    - Atualizar: Atualizar as informações de uma categoria.
    - Excluir: Remover categorias do sistema.
-     - Implementar softDeletes na exclusão da categoria.
+     - Implementar soft delete.
 
 5. Versionamento do Banco de Dados:
    - O candidato deve utilizar migrations para criar a estrutura do banco de dados (tabelas de produtos e categorias, com as devidas relações).
